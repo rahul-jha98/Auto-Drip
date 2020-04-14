@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          android:layout_width="match_parent" android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/cardHorizontalMargin"
+          android:layout_marginBottom="@dimen/cardHorizontalMargin"
+          android:layout_marginStart="@dimen/cardHorizontalMargin"
+          android:layout_marginEnd="@dimen/cardHorizontalMargin"
+          tools:text="Header"
+          android:paddingTop="@dimen/paddingLarge"
+          android:paddingBottom="@dimen/paddingLarge"
+          android:paddingEnd="@dimen/paddingSmall"
+          android:paddingStart="@dimen/paddingSmall"
+          android:textColor="@color/darkForeground"
+          android:textSize="26sp" android:textStyle="bold"/>

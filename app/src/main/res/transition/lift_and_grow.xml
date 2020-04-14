@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+    <transitionSet android:duration="300">
+        <changeBounds>
+            <arcMotion />
+        </changeBounds>
+        <transition class="com.jrlabls.auto_drip.customuielements.animatedelements.TranstionLiftOff"
+                    android:translationZ = "10dp"/>
+    </transitionSet>
+</transitionSet>

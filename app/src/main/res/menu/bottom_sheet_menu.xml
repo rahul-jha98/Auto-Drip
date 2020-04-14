@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/checkableMenu" android:checkableBehavior="single">
+        <item android:id="@+id/beds"
+              android:icon="@drawable/ic_twotone_bed"
+              android:title="All Beds"
+            android:checked = "true"/>
+        <item android:id="@+id/patients"
+              android:icon="@drawable/ic_twotone_patient"
+              android:title="Add Patient Report"/>
+
+    </group>
+    <group android:id="@+id/nonCheckableMenu" android:checkableBehavior="none">
+        <item android:id="@+id/settings"
+              android:icon="@drawable/ic_twotone_settings_24"
+              android:title="Settings"/>
+
+        <item android:id="@+id/share"
+              android:icon="@drawable/ic_twotone_share_24"
+              android:title="Share"/>
+    </group>
+</menu>
